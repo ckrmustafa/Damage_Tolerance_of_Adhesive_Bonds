@@ -174,6 +174,24 @@ Please cite any relevant research that utilizes or informs the theoretical model
 * Pascoe, John Alan, René Christiaan Alderliesten, and Rinze Benedictus. (2016). *Damage Tolerance of Adhesive Bonds - Dataset II. TU Delft.* https://doi.org/10.4121/UUID:AC105275-9DD6-4846-841D-4B0F164E6503
 * Relevant Machine Learning algorithm papers or libraries.
 
+## How to Cite This Software
+
+If you use this R Shiny application in your research, please cite it as follows to acknowledge the development of this tool:
+
+**Cakir, M. (2025). *Damage Tolerance of Adhesive Bonds: Data Analysis & Regression Dashboard* (Version v2.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17216129**
+
+*BibTeX Entry:*
+```bibtex
+@software{Cakir_2025_17216129,
+  author    = {Cakir, Mustafa},
+  title     = {{Damage Tolerance of Adhesive Bonds: Data Analysis & Regression Dashboard}},
+  version   = {v2.0.1},
+  publisher = {Zenodo},
+  year      = {2025},
+  doi       = {10.5281/zenodo.17216129},
+  url       = {[https://doi.org/10.5281/zenodo.17216129](https://doi.org/10.5281/zenodo.17216129)}
+}
+```
 ## Conclusions
 
 This study successfully developed and implemented an R Shiny dashboard for the comprehensive analysis of adhesive bond damage tolerance data. The application effectively streamlines the process from raw data ingestion and cleaning to advanced regression modeling and performance evaluation. The integrated data preprocessing, feature engineering capabilities for theoretical values, and robust outlier management contribute to the reliability of the analysis. The Boruta algorithm proved effective in identifying relevant predictors, ensuring that subsequent models were trained on a focused and impactful set of features. The dashboard's ability to train and compare a diverse array of machine learning models provides users with a broad perspective on predictive performance for the specified target variables. Visualization of model metrics, actual vs. predicted values, and residuals offers critical insights into model accuracy and error characteristics. Furthermore, the inclusion of explainable models like Linear Regression and Decision Trees, coupled with comparative analyses against theoretical models, enhances the interpretability and contextual relevance of the findings. The automated report generation functionality significantly improves the reproducibility and dissemination of the analytical results, providing a structured summary of all key steps and outcomes.
