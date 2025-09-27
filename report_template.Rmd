@@ -1,0 +1,32 @@
+---
+title: "Damage Tolerance of Adhesive Bonds - Analysis Report"
+author: "R Shiny Dashboard"
+date: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')`"
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+    latex_engine: xelatex
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: flatly
+params:
+  app_data: !r list()
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10, fig.height = 7, fig.align = 'center')
+
+# Load packages used for plots in the report
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(scales)
+library(corrplot)
+library(Boruta)
+library(Metrics)
+library(caret)
+library(rpart.plot)
+library(plotly) # For interactive plots in HTML report
